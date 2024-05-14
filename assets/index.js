@@ -6,7 +6,7 @@ let isMobileDevice = regexp.test(details);
 let canColor = false;
 let isActiveAvailable = false;
 
-function vibrate(duration = 200) {
+function vibrate(duration = 220) {
   if (navigator.vibrate) {
     navigator.vibrate(duration);
   }
