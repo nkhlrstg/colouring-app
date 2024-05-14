@@ -7,9 +7,9 @@ let canColor = false;
 let isActiveAvailable = false;
 
 function vibrate(duration = 220) {
-  if (navigator.vibrate) {
+ /* if (navigator.vibrate) {
     navigator.vibrate(duration);
-  }
+  } */
 }
 
 window.addEventListener("orientationchange", () => {
